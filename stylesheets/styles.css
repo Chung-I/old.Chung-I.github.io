@@ -143,7 +143,12 @@ th, td {
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
 }
-
+td.no-line-break{
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1px solid #e5e5e5;
+  white-space: nowrap;
+}
 dt {
   color:#444;
   font-weight:700;
